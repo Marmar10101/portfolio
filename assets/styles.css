@@ -1,7 +1,17 @@
+body {
+  font-family: monospace, sans-serif,
+}
 header {
     background-color:#fd5c63 ;
     color: black;
     text-align: center;
+}
+nav {
+  display: inline;
+  position: fixed;
+  top:0;
+  right:0;
+
 }
 .profile-picture {
     width: 100%;
@@ -10,3 +20,28 @@ header {
   object-fit: cover;
   border-radius: 50%;
 }
+img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20%;
+}
+article {
+ background-color: #F08080;
+ position: absolute;
+ width: 800px;
+ margin: 0;
+ text-align: center;
+ }
+aside {
+  background-color: #F08080;
+  position: absolute;
+  width: 300px;
+  text-align: center;
+  margin-left: 70%;
+}
+form {
+  display: block;
+}
+
