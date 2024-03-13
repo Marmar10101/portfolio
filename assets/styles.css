@@ -1,17 +1,25 @@
+*{
+  font-family:'Courier New', Courier, monospace;
+}
 body {
-  font-family: monospace, sans-serif,
+  text-wrap:balance;
 }
 header {
     background-color:#fd5c63 ;
     color: black;
     text-align: center;
+    width: 1208px;
 }
 nav {
-  display: inline;
-  position: fixed;
-  top:0;
-  right:0;
-
+  float:right;
+  position:absolute;
+  top: 15px;
+  right: 5px;
+}
+li{
+  list-style-type: none;
+  display:inline;
+  margin-right: 10px;;
 }
 .profile-picture {
     width: 100%;
@@ -19,29 +27,83 @@ nav {
   height: 300px;
   object-fit: cover;
   border-radius: 50%;
+  text-align: center;
 }
-img {
+img{
   width: 100%;
   max-width: 350px;
   height: 300px;
   object-fit: cover;
   border-radius: 20%;
 }
+.challenge {
+  width: 400%;
+  max-width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+.assignment, .mini {
+  font-size: large;
+  font-weight: bold;
+}
 article {
  background-color: #F08080;
  position: absolute;
- width: 800px;
+ width: 805px;
  margin: 0;
  text-align: center;
  }
 aside {
   background-color: #F08080;
   position: absolute;
-  width: 300px;
+  right:0;
+  width: 404px;
   text-align: center;
-  margin-left: 70%;
+  margin-left: 65%;
 }
-form {
+label {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
   display: block;
 }
+  fieldset {
+    border: none;
+    text-align: center;
+    margin: auto;
+    text-align: left;
+ width: 75px;
+ padding-left: 20px;
+  }
+  textarea {
+    display:flex;
+    justify-content: center;
+  }
+  input[type="submit"] {
+    display: block;
+    border-color: white;
+    width: 100px;
+    margin: auto;
+    background-color:black;
+    color:white;
+}
+.num, .mail, .git {
+  list-style-type: none;
+  display: inline;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+.footer {
+  background-color: #F08080;
+  color: black;
 
+}
+a:-webkit-any-link{
+  color:black;
+  text-decoration:underline;
+}
+a:-webkit-any-link:hover{
+  color:aliceblue;
+}

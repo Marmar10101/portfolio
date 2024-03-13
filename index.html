@@ -9,54 +9,60 @@
 <body>
     <header>
             <h1>Marranda Thompson</h1>
-            <img class="profile-picture" src="./assets/images/Profile Picture.jpg" alt="profile-picture">
             <nav>
                 <ul>
-                    <li><a href="#"></a>About Me</li>
-                    <li><a href="#"></a>My Work</li>
-                    <li><a href="#"></a>Contact Me</li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
-            </nav>
+            </nav> 
+            <img class="profile-picture" src="./assets/images/Profile Picture.jpg" alt="profile-picture">
     </header>
 <main>
     <article>
-        <section>
+        <section id="about-me">
         <h2>About Me</h2>
-        <p>My name is Marranda Thompson. I am currently a manager at Fajita Petes. After work I am a student in a coding boot camp starting by learning responsive web design. Once ive finished my classes I aspire to become a data anylist or web designer. Outside of work of school, I love to go on runs with my two doggies.</p>
+        <p>My name is Marranda Thompson. I am currently a manager at Fajita Petes. After work I am a student in a coding boot camp starting by learning responsive web design. Once ive finished my classes I aspire to become a data anylist or web designer. Outside of work or school, I love to go on runs with my two doggies.</p>
         </section>
-        <section>
+        <section id="my-work">
             <h2>My Work</h2>
             <!--Make a box with a pre screen of the website made and whole thing a link that opens into another page-->
-            <p>First challenge assignment</p>
+            <p class="assignment">First challenge assignment</p>
+            <a href="https://marmar10101.github.io/Horiseon-social-solutions/"><img class="challenge" src="./assets/images/horiseon-social-solutions.png"></a>
+            <p class="mini">Side project</p>
+            <a href=""><img class="website" src=""></a>
         </section>
-        <section>
+        <section id="contact-me">
             <h2>Contact Me</h2>
+           <!--Havent quite learned how to get the submit button to send to an application where i can read the submitions :/ -->
             <fieldset>
-                <form action="thompsonmarranda@gmail.com" method="GET" >
+                <form action="#" method="get" >
                     <label for="name">Name:<input id="first-name" name="first-name" type="text" required></label>
                     <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
                     <label for="bio">Provide some comments:
-                        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like how..."></textarea></label>
+                        <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like how...hate.."></textarea></label>
                         <input type="submit" value="Submit"/>
                 </form>
             </fieldset>
             <div>
                 <!--make all into links-->
-                <p>214.784.2847</p>
-                <p>Thompsonmarranda@gmail.com</p>
-                <p>Github</p> 
+                <p class="num"><a href="tel:214-784-2847">214.784.2847</a></p>
+                <p class="mail"><a href=mailto:"thompsonmarranda@gmail.com">Thompsonmarranda@gmail.com</a></p>
+                <p class="git"><a href="https://github.com/Marmar10101">Github</a></p> 
             </div>
             
         </section>
     </article>
     <aside>
         <p>This is my lovely Willow</p>
-        <img src="./assets/images/willow.jpeg" alt="willow">
+        <img class="willow" src="./assets/images/willow.jpeg" alt="willow">
         <p>This is my crazy Milo</p>
-        <img src="./assets/images/milo2.jpeg" alt="milo">
+        <img class="milo" src="./assets/images/milo2.jpeg" alt="milo">
     </aside>
 </main>
+<!--Fix Footer IDK What happened-->
+    <footer>
+    <p class="footer">Marrandas Website</p>
+    </footer>
 </body>
-<footer>
-
-</footer>
+</html>
