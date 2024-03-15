@@ -2,7 +2,9 @@
   font-family:'Courier New', Courier, monospace;
 }
 body {
+  background-color: #F08080;
   text-wrap:balance;
+  min-height: 100%;
 }
 header {
     background-color:#fd5c63 ;
@@ -95,10 +97,13 @@ label {
   padding-bottom: 20px;
   margin-right: 10px;
 }
-.footer {
+.address {
   background-color: #F08080;
   color: black;
-
+  position: absolute;
+  bottom: -1150px;;
+  left: 600px;
+  margin-top: 20px;
 }
 a:-webkit-any-link{
   color:black;
