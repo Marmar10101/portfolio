@@ -10,6 +10,13 @@
         html, body, aside, article, section, footer {
           width: 900px;
         }
+        header {
+          width: 1208px;
+        }
+        footer {
+          position: absolute;
+          bottom:-1150px;
+        }
   }
   @media screen and (max-width:600px) {
       html, body, article, section, footer {
@@ -19,6 +26,10 @@
   @media screen and (max-width:400px) {
     html, body, article, section, footer {
       width:400px
+    }
+    aside {
+      width: 200px;
+      margin-left: 65%;
     }
   }
   html {
